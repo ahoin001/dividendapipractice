@@ -10,7 +10,7 @@ const Tracker = () => {
         const fetch = async () => {
 
             const responseFromApi = await axios(
-                'https://cloud.iexapis.com/stable/stock/aapl/dividends/1y/?token=pk_2519bf9fdbe44c1ab9079927ecc10d49&symbols=aapl',
+                'https://cloud.iexapis.com/stable/stock/aapl/dividends/ytd/?token=pk_2519bf9fdbe44c1ab9079927ecc10d49&symbols=aapl',
             );
 
             console.log(responseFromApi.data[0])
